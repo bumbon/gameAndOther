@@ -1,0 +1,24 @@
+/*div {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+    
+/*}*/
+#red {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin: auto auto;
+    
+}
+#green {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: auto auto;
+}
+#blue {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+      margin: auto auto;
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<link rel="stylesheet" href="index.css" type="text/css" /> 
+</head>
+<body onload="prepareGame();">
+
+    <div class="active">
+
+        <p>Click on lowest numbers as fast as you can</p>
+
+    </div>
+
+    <table id="data" class="active">
+
+        <tr><td></td><td></td><td></td><td></td></tr>
+
+        <tr><td></td><td></td><td></td><td></td></tr>
+
+        <tr><td></td><td></td><td></td><td></td></tr>
+
+        <tr><td></td><td></td><td></td><td></td></tr>       
+
+    </table>
+
+    <div id="gameover" hidden="true">
+
+        <p>Congratulations!</p>
+
+        <p>Your time is: <span id="time"></span> seconds</p>
+
+        <button id="restart" onclick="prepareGame();">Restart</button>
+
+    </div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

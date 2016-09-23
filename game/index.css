@@ -1,0 +1,12 @@
+table tr td {
+    background-color: #ccc;
+}
+table {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+td {
+    width: 100px;
+    height: 100px;
+}
